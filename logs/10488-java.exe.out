@@ -1,0 +1,93 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1151milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1151"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51516"}
+{"logLevel":"info","message":"Listening on port:51516"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SendkeyElementByid' and 'StepImplementation.SendkeyElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isDisplayed' and 'StepImplementation.isDisplayed'"}
+{"logLevel":"debug","message":"Found {} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrolEt' and 'StepImplementation.scrolEt'"}
+{"logLevel":"debug","message":"Found Sayfayı bir kere asagi kaydir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrolEtUc' and 'StepImplementation.scrolEtUc'"}
+{"logLevel":"debug","message":"Found Sayfayı bir daha scroll et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.SendkeyElementByxpath' and 'StepImplementation.SendkeyElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByxpath' and 'StepImplementation.clickElementByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isDisplayedxpath' and 'StepImplementation.isDisplayedxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'ine sahip element sayfada var mı, doğru sayfada mıyım kontrolü yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrolEtİki' and 'StepImplementation.scrolEtİki'"}
+{"logLevel":"debug","message":"Found Sayfayı bir kere daha asagı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElementByid' and 'StepImplementation.clickElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitTime' and 'StepImplementation.waitTime'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tSayfayı bir daha scroll et : public void scrolEtUc()"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente {} değerini yaz : public void SendkeyElementByxpath(String Key, String keywordc)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitTime(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente tıkla : public void clickElementByxpath(String Key)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente tıkla : public void clickElementByid(String Key)"}
+{"logLevel":"debug","message":"\t{} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap : public boolean isDisplayed(String Key)"}
+{"logLevel":"debug","message":"\t{} xpath'ine sahip element sayfada var mı, doğru sayfada mıyım kontrolü yap : public boolean isDisplayedxpath(String Key)"}
+{"logLevel":"debug","message":"\t{} İd'li elemente {} değerini yaz : public void SendkeyElementByid(String Key, String keywordc)"}
+{"logLevel":"debug","message":"\tSayfayı bir kere asagi kaydir : public void scrolEt()"}
+{"logLevel":"debug","message":"\tSayfayı bir kere daha asagı kaydır : public void scrolEtİki()"}
+Android  testi basliyor
+Eki 30, 2021 3:36:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap' using 'class StepImplementation.isDisplayed"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap' using 'class StepImplementation.isDisplayed"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickElementByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickElementByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing 'Sayfayı bir kere asagi kaydir' using 'class StepImplementation.scrolEt"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing 'Sayfayı bir kere daha asagı kaydır' using 'class StepImplementation.scrolEtİki"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} xpath'li elemente tıkla' using 'class StepImplementation.clickElementByxpath"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap' using 'class StepImplementation.isDisplayed"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing 'Sayfayı bir daha scroll et' using 'class StepImplementation.scrolEtUc"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} id'li element sayfada var mı doğru sayfada mıyım kontrolü yap' using 'class StepImplementation.isDisplayed"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente {} değerini yaz' using 'class StepImplementation.SendkeyElementByid"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente {} değerini yaz' using 'class StepImplementation.SendkeyElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Executing '{} İd'li elemente tıkla' using 'class StepImplementation.clickElementByid"}
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitTime"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
